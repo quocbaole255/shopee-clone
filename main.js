@@ -130,6 +130,6 @@ function updateTotal() {
         var price = parseFloat(priceElement.innerText.replace("đ", ""));
         var quantity = quantityElement.value;
         total = total + (price * quantity);
-        document.getElementsByClassName('header__cart-list-total-total-price')[0].innerText = 'đ' + total;
     }
+    document.getElementsByClassName('header__cart-list-total-total-price')[0].innerText = 'đ' + total;
 }
