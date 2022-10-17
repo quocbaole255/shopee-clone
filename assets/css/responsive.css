@@ -40,7 +40,21 @@
     .mobile-category {
         display: block;
     }
-
+    .header__cart-item-name {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        max-height: 4rem;
+        overflow: hidden;
+        font-weight: 500;
+        color: var(--text-color);
+        margin: 0;
+        flex: 1;
+        padding-right: 16px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        text-align: left;
+    }
 }
 
 /* tablet */
