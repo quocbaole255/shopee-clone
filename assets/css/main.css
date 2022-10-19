@@ -332,6 +332,7 @@
     font-weight: 400;
     color: var(--text-color);
     text-align: center;
+    margin-top: 8px;
 }
 
 .auth-form__switch-btn {
